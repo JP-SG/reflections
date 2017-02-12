@@ -1,0 +1,15 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+    Git init command creates a new Git repository.  Each Git repository is
+    tied to a specific directory where you ran git init.  You need to create
+    a repository if you want to use Git to track changes across files in that
+    directory.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+    Staging area is an intermediate zone that allows you to choose, one at a
+    time, which files will be added to the repository.  The working directory
+    simple contains all files saved in it, while the repository represents
+    the bundled contents of the staging area.  Staging area provides
+    flexibility to determine which files you want to link for purposes of
+    tracking changes.
