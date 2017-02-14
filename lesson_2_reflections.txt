@@ -21,3 +21,11 @@ How can you use the staging area to make sure you have one commit per logical ch
     what is in the staging area, and use git diff --staged to check changes
     in the staging area against the most recent commit.  If these changes are
     the ones you want, you can proceed to git commit.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+    Branches can be used to develop alternate versions of a program (in a
+    foreign language for example) or to test a more meaningful change to the
+    code (such as an experimental feature or structural change). By doing it
+    this way, you can keep track of the different approaches, rather than
+    trying to make all edits directly in the master branch.
