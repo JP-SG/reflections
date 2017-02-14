@@ -13,3 +13,11 @@ How is the staging area different from the working directory and the repository?
     the bundled contents of the staging area.  Staging area provides
     flexibility to determine which files you want to link for purposes of
     tracking changes.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+    Move the relevant files from the working directory into the staging area.
+    Then check use git diff to compare changes in the working directory to
+    what is in the staging area, and use git diff --staged to check changes
+    in the staging area against the most recent commit.  If these changes are
+    the ones you want, you can proceed to git commit.
