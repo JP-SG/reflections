@@ -29,3 +29,11 @@ What are some situations when branches would be helpful in keeping your history 
     code (such as an experimental feature or structural change). By doing it
     this way, you can keep track of the different approaches, rather than
     trying to make all edits directly in the master branch.
+
+How do the diagrams help you visualize the branch structure?
+
+    The diagrams show clearly the alternate versions of the code, which
+    changes (commits) were made to the main (master) version, and which
+    changes were made to alternate versions (branches). Each commit links
+    back to its parent (parent refers to the commit that was checked out
+    when the new commit was made).
