@@ -37,3 +37,10 @@ How do the diagrams help you visualize the branch structure?
     changes were made to alternate versions (branches). Each commit links
     back to its parent (parent refers to the commit that was checked out
     when the new commit was made).
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+    Merging two branches creates a combined version that contains info about
+    both parents.  We still have access to the old commits from each of the
+    branches (commits are sorted by time stamp).  The diagram includes arrows
+    back to each of the parent commits to show this.
