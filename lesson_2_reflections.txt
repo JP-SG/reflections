@@ -44,3 +44,11 @@ What is the result of merging two branches together? Why do we represent it in t
     both parents.  We still have access to the old commits from each of the
     branches (commits are sorted by time stamp).  The diagram includes arrows
     back to each of the parent commits to show this.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+    Automatic merging is much less tedious as Git can identify where changes
+    have been made and consolidate them into one branch, such that different
+    users can work on a file and then have their changes automatically
+    consolidated. Git also identifies conflicts and allows users to manually
+    fix conflicts.
