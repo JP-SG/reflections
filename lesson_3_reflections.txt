@@ -21,3 +21,11 @@ What is the benefit of having a copy of the last known state of the remote store
     then use git log and git diff to see what changes were introduced on the
     remote.  This can be helpful when working offline.  You can then use git
     merge on the local to update it for changes on the remote.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+    To collaborate without Git or GitHub, you would need to be extremely diligent
+    in keeping track of changes you were making, and you would need to send files
+    back and forth to collaborators.  It would create a lot of work to do this,
+    and to integrate different versions of the code.  However, you would not
+    need to invest the time to learn how Git and GitHub work.
