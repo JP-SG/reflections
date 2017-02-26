@@ -13,3 +13,11 @@ Describe the differences between forks, clones, and branches. When would you use
     A clone is a duplicate repository that you can make locally on your own
     machine (from GitHub or from your own machine).  A branch is an alternate
     version existing within a single repository.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+    Git fetch can be used to update just the local copy of the remote branch
+    (origin/master) while leaving your actual local version alone.  You can
+    then use git log and git diff to see what changes were introduced on the
+    remote.  This can be helpful when working offline.  You can then use git
+    merge on the local to update it for changes on the remote.
